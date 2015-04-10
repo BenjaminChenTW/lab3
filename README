@@ -1,0 +1,29 @@
+Question A
+make
+
+Question B
+1000:
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 0.01 seconds
+v1/v2 are the same.
+
+10000:
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 1.31 seconds
+v1/v2 are the same.
+
+100000:
+sort(): 0.05 seconds
+v1/v2 are different.
+insertion_sort(): 127.67 seconds
+v1/v2 are the same.
+
+1000000:
+sort(): 0.51 seconds
+v1/v2 are different.
+insertion_sort(): 12798.9 seconds
+v1/v2 are the same.
+
+We can see that insertion_sort() is more slower than sort().
